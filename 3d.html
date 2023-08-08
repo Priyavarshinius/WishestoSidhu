@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+        <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="C:\Users\Aishvarya Umashankar\OneDrive\Desktop\Birthday.blog\css\3d.css" /> 
+        <title>3D hover</title>
+    </head>
+    <div class="text">
+       <p> <h1>Touch The Image To Spin</h1> </p>
+    </div>
+   
+    <body>
+        <div class="box">
+        <div style="--v: 1;"><img src= "C:\Users\Aishvarya Umashankar\OneDrive\Desktop\Birthday.blog\img\Aug 15\1.png"></div>
+        <div style="--v: 2;"><img src="C:\Users\Aishvarya Umashankar\OneDrive\Desktop\Birthday.blog\img\Aug 15\2.png"></div>
+        <div style="--v: 3;"><img src="C:\Users\Aishvarya Umashankar\OneDrive\Desktop\Birthday.blog\img\Aug 15\3.jpg"></div>
+        <div style="--v: 4;"><img src="C:\Users\Aishvarya Umashankar\OneDrive\Desktop\Birthday.blog\img\Aug 15\4.png"></div>
+        <div style="--v: 5;"><img src="C:\Users\Aishvarya Umashankar\OneDrive\Desktop\Birthday.blog\img\Aug 15\5.png"></div>
+        <div style="--v: 6;"><img src="C:\Users\Aishvarya Umashankar\OneDrive\Desktop\Birthday.blog\img\Aug 15\6.png"></div>
+        <div style="--v: 7;"><img src="C:\Users\Aishvarya Umashankar\OneDrive\Desktop\Birthday.blog\img\Aug 15\7.png"></div>
+        <div style="--v: 8;"><img src="C:\Users\Aishvarya Umashankar\OneDrive\Desktop\Birthday.blog\img\Aug 15\8.png"></div>
+        </div>
+        <div class="texts">
+            <a href="C:/Users/Aishvarya Umashankar/OneDrive/Desktop/Birthday.blog/Bdayhover.html"> <h1>Press Here</h1></a>
+         </div>
+    </body>
+    <script>
+        $(document).ready(function(){
+            $('.box div').click(function(){
+                if($(this).hasClass('spin')){
+                    $('.box div').removeClass('spin');
+                }
+                else{
+                    $('.box div').removeClass('spin');
+                    $(this).addClass('spin');
+                }
+            });
+        });
+    </script>
+</html>
