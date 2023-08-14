@@ -23,6 +23,12 @@ body{
     font-size: 44px;
     text-align: center;
 }
+.head h2{
+   
+    color: #fff;
+    font-size: 44px;
+    text-align: center;
+}
 .container{
    max-width: 1200px;
    margin:100px auto;
